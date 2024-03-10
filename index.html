@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube list clone</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="top-nav">
+        <div class="logo-container">
+            <img src="assets/images/svg-icons/logo-menu.svg" alt="YouTube logo menu" id="logo-menu">
+            <img src="assets/images/svg-icons/youtube-logo.svg" alt="YouTube Logo" id="logo-img">
+        </div>
+        <div class="search-bar-container">
+            <input type="text" placeholder="Pesquisar" id="search-bar-input">
+            <div id="search-bar-icon-container">
+                <img src="assets/images/svg-icons/search-icon.svg" alt="Search Icon Glasses">
+            </div>
+        </div>
+        <div class="avatar-container">
+            <img src="assets/images/svg-icons/avatar-placeholder-icon.svg" alt="Avatar" id="avatar-placeholder-icon">
+            <p>Fazer login</p>
+        </div>
+    </nav>
+    <div class="content-container">
+        <section class="sidebar-container">
+            <div class="home-icon-container">
+                <img src="assets/images/svg-icons/home-icon.svg" alt="Home Icon">
+                <p>Início</p>
+            </div>
+            <div class="subscriptions-icon-container">
+                <img src="assets/images/svg-icons/subscriptions-icon.svg" alt="My Subscriptions Icon">
+                <p>Inscrições</p>
+            </div>
+            <div id="hr"></div>
+            <div class="you-videos-container">
+                <img src="assets/images/svg-icons/you-videos-icon.svg" alt="My Videos Icon">
+                <p>Você</p>
+            </div>
+            <div class="history-icon-container">
+                <img src="assets/images/svg-icons/history-videos-icon.svg" alt="History Icon">
+                <p>Histórico</p>
+            </div>
+            <div id="hr"></div>
+            <div id="login-wall-container">
+                <p>Faça login para curtir vídeos, comentar e se inscrever.</p>
+                <span id="login-wall-icon">
+                    <img src="assets/images/svg-icons/avatar-placeholder-icon.svg" alt="Avatar">
+                    <p>Fazer login</p>
+                </span>
+            </div>
+            <div id="hr"></div>
+            <span id="explore-text">Explorar</span>
+            <div class="trending-container">
+                <img src="assets/images/svg-icons/trending-fire-icon.svg" alt="Trending Fire Icon">
+                <p>Em alta</p>
+            </div>
+            <div class="live-container">
+                <img src="assets/images/svg-icons/stream-live-icon.svg" alt="Live Icon">
+                <p>Ao vivo</p>
+            </div>
+            <div class="shopping-container">
+                <img src="assets/images/svg-icons/shopping-bag-icon.svg" alt="Shopping Bag Icon">
+                <p>Shopping</p>
+            </div>
+            <div class="music-container">
+                <img src="assets/images/svg-icons/music-note-icon.svg" alt="Music Note Icon">
+                <p>Música</p>
+            </div>
+            <div class="movie-container">
+                <img src="assets/images/svg-icons/movie-icon.svg" alt="Movie Icon">
+                <p>Filmes</p>
+            </div>
+            <div class="podcast-container">
+                <img src="assets/images/svg-icons/podcast-icon.svg" alt="Podcast Icon">
+                <p>Podcasts</p>
+            </div>
+            <div class="news-container">
+                <img src="assets/images/svg-icons/news-icon.svg" alt="News Icon">
+                <p>Notícias</p>
+            </div>
+            <div class="sports-container">
+                <img src="assets/images/svg-icons/trophy-icon.svg" alt="Trophy Icon">
+                <p>Esportes</p>
+            </div>
+            <div class="learn-container">
+                <img src="assets/images/svg-icons/school-icon.svg" alt="School Hat Icon">
+                <p>Aprender</p>
+            </div>
+            <div id="hr"></div>
+            <div class="add-channels-container">
+                <img src="assets/images/svg-icons/search-channels-icon.svg" alt="">
+                <p>Procurar canais</p>
+            </div>
+            <div id="hr"></div>
+            <div class="settings-container">
+                <img src="assets/images/svg-icons/gear-settings-icon.svg" alt="Gear Icon">
+                <p>Configurações</p>
+            </div>
+            <div class="flag-container">
+                <img src="assets/images/svg-icons/flag-icon.svg" alt="Flag Icon">
+                <p>Denúncias</p>
+            </div>
+            <div class="help-container">
+                <img src="assets/images/svg-icons/help-icon.svg" alt="Help Icon">
+                <p>Ajuda</p>
+            </div>
+            <div class="feedback-container">
+                <img src="assets/images/svg-icons/feedback-icon.svg" alt="Feedback Icon">
+                <p>Enviar Feedback</p>
+            </div>
+            <div id="hr"></div>
+            <p style="margin-left: 10px; color: #757575;">Intended for educational purposes only.</p>
+            <p id="github-ad"><a href="https://github.com/giovxni">github.com/giovxni</a></p>
+            <span style="margin-bottom: 0;"></span>
+        </section>
+        
+        <main class="content">
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail1.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>CSS GRID | GUIA DEFINITIVO para lidar com divs sem crise | Getting Started #18</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>23 mil visualizações • há 1 ano</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail2.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Torne-se um mestre em desenvolvimento de jogos no Roblox e Metaverse com a Dio</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>62 mil visualizações • há 10 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail3.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Melhores IDE de Programação [ONLINE E OFFLINE] | Getting Started #13</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>16 mil visualizações • há 1 ano</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail4.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Formação DevOps Fundamentals - Aprenda os fundamentos da cultura DevOps na prática</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>762 visualizações • há 5 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail5.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Aprenda o que é Terraform na prática</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>457 visualizações • há 5 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail6.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>DIO: Transformando vidas e construindo o futuro</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>16 mil visualizações • há 1 ano</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail7.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Curso de Lua Developer: Desenvolvimento de Jogos, Automação e Prototipagem Rápida</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>889 visualizações • há 8 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail8.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>De Black Mirror para o Mundo Real: As Tecnologias da série que já são Possíveis!</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>608 visualizações • há 8 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail9.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Domine Java: Impulse sua carreira com a linguagem top 3 do mundo tech.</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>3,5 mil visualizações • há 8 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail10.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Criando um carrossel Parallax do Aranhaverso com React, Next e Typescript</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>3,5 mil visualizações • há 8 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail11.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Como ser mais produtivo nos projetos com React, Vite e Tailwind</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>1,8 mil visualizações • há 9 meses</p>
+                </div>
+            </div>
+            <div class="thumbnail-container">
+                <div class="thumbnail-frame">
+                    <img src="assets/images/thumbnail12.webp" alt="Video Thumbnail">
+                </div>
+                <div class="video-desc">
+                    <div class="channel-pic">
+                        <img src="assets/images/dio-channel-avatar.png" alt="Channel Avatar">
+                        <h2>Desvendando o Poder do JavaScript: Torne-se um Expert em Desenvolvimento WWeb</h2>
+                    </div>
+                </div>
+                <div class="channel-info">
+                    <p>DIO</p>
+                    <p>2,4 mil visualizações • há 8 meses</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

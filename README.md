@@ -1,7 +1,7 @@
 # Training CSS Grid
 
 Another challenge proposed by DIO.me, this time the challenge was to reproduce the YouTube home page, specifically the YouTube list videos from home page using Grid Layouts. 
-**The page its not responsible, it was intended to Full HD screens (1920x1080).**
+**The page its not responsive, it was intended to Full HD screens (1920x1080).**
 
 
 ## What i used?
